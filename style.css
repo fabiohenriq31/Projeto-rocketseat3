@@ -1,0 +1,102 @@
+body{
+  background: linear-gradient(90deg, rgba(173, 1, 1, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+}
+.page {
+  width: 1000px;
+  margin: 65px auto 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 55px;
+}
+a{
+  color:#1f1534;
+  text-decoration: none;
+}
+ul li a{
+  opacity: 0.5;
+}
+ul li a:hover{
+  font-weight: bold;
+  opacity: 1;
+}
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav span {
+  font-weight: bold;
+}
+
+#hero {
+  width: 1008px;
+  height: 433.64px;
+  text-align: initial;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 58px auto 82px;
+}
+#left {
+  font-size: 23px;
+  width: 489px;
+  height: 332px;
+  border-right: 102px;
+}
+#header-text h1 {
+  font-family: "Mulish", sans-serif;
+}
+#header-text h1 span {
+  color: #89c5cc;
+}
+#header-text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+#header-text p span {
+  font-weight: bold;
+}
+button {
+  font-family: "DM Sans", sans-serif;
+  width: 179px;
+  height: 56px;
+  background-color: #06e43e;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+.meu-botao:hover {
+  background-color: #034e16;
+}
+.meu-botao ion-icon {
+  font-size: 24px;
+  margin-right: 5px;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  width: 592px;
+  height: 28px;
+  margin: auto;
+}
+footer span {
+  font-weight: bold;
+}
+#balls {
+  position: fixed;
+  right: 0;
+}
